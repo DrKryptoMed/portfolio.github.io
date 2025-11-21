@@ -37,6 +37,8 @@
             <a href="[YOUR_YOUTUBE_URL]" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
             <a href="assets/Your_Name_CV.pdf" download title="Download CV"><i class="fas fa-file-arrow-down"></i></a>
             <a href="https://www.kaggle.com/mikailibrahimaremu" target="_blank" title="Kaggle"><i class="fab fa-kaggle"></i></a>
+            <a href="https://orcid.org/0009-0009-7869-7585" target="_blank" title="Orcid"><i class="fab fa-Orcid"></i></a>
+            
         </div>
     </div>
 </header>
@@ -63,7 +65,7 @@
             <div class="about-text">
                 <!--💡UPDATE: Write your own 'About Me' text here-->
                 <p> I am a Data Analyst with specialization in Health Data Science and Epidemiology, driven by the belief that true innovation happens where medical knowledge meets data insight. My work focuses on transforming complex health information into actionable solutions that improve patient outcomes, advance clinical research, and strengthen healthcare systems. With an undergraduate degree in Human Anatomy, a Master’s in Public Health, and professional certifications in Data Analytics and Data Science from DataCamp and Google, I combine scientific expertise with analytical skill to uncover patterns that drive evidence‑based healthcare.</p>
-                <p>I also provide professional services in Medical and Health Sciences research, offering expertise in data analysis, methododology, and evidence‑based study design to help institutions, researchers, and organizations strengthen their projects and achieve impactful results.</p>
+                <p>I also provide professional services in Medical and Health Sciences research, offering expertise in literature review, data analysis, methodology, and evidence‑based study design to help students and researchers in this domain, strengthen their projects and achieve impactful results.</p>
                 <p>This portfolio showcases my projects across various sectors.</p>
                 
             </div>
@@ -144,17 +146,18 @@
         <div class="skills-table">
             
             <!--💡UPDATE: Customize your skills in each category-->
-            <!-- Column 1: Data Visualization -->
+            <!-- Column 1: Data Science -->
             <div class="skill-column">
                 <div class="skill-header">
                     <i class="fas fa-chart-pie"></i>
-                    <h3>Data Visualization</h3>
+                    <h3>Health Data Science</h3>
                 </div>
                 <ul class="skill-list">
-                    <li>Power BI</li>
-                    <li>Tableau</li>
-                    <li>Looker Studio</li>
-                    <li>Excel Dashboards</li>
+                    <li>Machine learning using Python</li>
+                    <li>Health informatics & decision support systems using FHIR, HL7 standards</li>
+                    <li>Patient outcome prediction models with Python & R</li>
+                    <li>Big data handling with PySpark, Hadoop</li>
+                    
                 </ul>
             </div>
 
@@ -162,27 +165,41 @@
             <div class="skill-column">
                 <div class="skill-header">
                     <i class="fas fa-search-plus"></i>
-                    <h3>Data Analysis</h3>
+                    <h3>Health Data Analysis</h3>
                 </div>
                 <ul class="skill-list">
-                    <li>SQL</li>
-                    <li>Advanced Excel</li>
-                    <li>Python (Pandas)</li>
-                    <li>Google Sheets</li>
+                    <li>Data cleaning using SQL, Power Query & Python (Pandas, NumPy)</li>
+                    <li>Exploratory data analysis (EDA) with Python (Matplotlib, Seaborn), R (tidyverse, ggplot2)</li>
+                    <li>Healthcare KPI reporting & visualization tailored to clinical and policy needs using Power BI with DAX, Excel Pivot Tables</li>
+                    <li>Public health metrics & population health dashboards with Tableau, Power BI, Google Data Studio, Excel</li>
                 </ul>
             </div>
 
-            <!-- Column 3: Data Modeling & ETL -->
+            <!-- Column 3: Epidemiology & Public Health -->
             <div class="skill-column">
                 <div class="skill-header">
                     <i class="fas fa-cogs"></i>
-                    <h3>Data Modeling & ETL</h3>
+                    <h3>Epidemiology & Public Health</h3>
                 </div>
                 <ul class="skill-list">
-                    <li>Power Query (M)</li>
-                    <li>DAX</li>
-                    <li>Star Schema Design</li>
-                    <li>ETL Processes</li>
+                    <li>Study design (cohort, case‑control, cross‑sectional, RCTs) using Epi Info, R (epiR)</li>
+                    <li>Biostatistics with R, SPSS, Stata, SAS</li>
+                    <li>Disease surveillance & outbreak investigation using DHIS2, WHO/CDC datasets</li>
+                    <li>Risk factor assessment with R (metafor, epiR)</li>
+                </ul>
+            </div>
+
+            <!-- Column 4: Research & Academic Services -->
+            <div class="skill-column">
+                <div class="skill-header">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Research & Academic Services</h3>
+                </div>
+                <ul class="skill-list">
+                    <li>Methodology design & protocol development with SPSS, Stata, R</li>
+                    <li>Systematic reviews & meta‑analysis using RevMan, Covidence, R (metafor, meta)</li>
+                    <li>Statistical consulting with SPSS, Stata, SAS, R</li>
+                    <li>Academic writing & publication support with EndNote, Zotero, NVivo</li>
                 </ul>
             </div>
 
@@ -196,8 +213,8 @@
         <h2>Send me a message</h2>
         
         <!--💡UPDATE: Go to formsubmit.co and replace the email with your own-->
-        <form action="https://formsubmit.co/your-email@example.com" method="POST" class="contact-form">
-            <p> Interested in collaborating or have questions about my work? I'd love to hear from you!</p>
+        <form action="https://formsubmit.co/el/hajami" method="POST" class="contact-form">
+            <p> Interested in collaborating, hiring my services or have questions about my work? I'd love to hear from you!</p>
 
             <!-- Form Fields -->
             <div class="form-group">
@@ -207,6 +224,10 @@
             <div class="form-group">
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email" placeholder="Your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" placeholder="your contact" required>
             </div>
             <div class="form-group">
                 <label for="subject">Subject</label>
